@@ -210,14 +210,27 @@
 					<div class="divider"></div>
 				</div>
 
+				<!-- NOTE: ad getForm api link into action here -->
 				<form class="center-m column form" method="post" action="#">
-					<input placeholder="Name" class="input" type="text" />
-					<input placeholder="Email Address" class="input" type="email" />
+					<input
+						placeholder="Subject"
+						class="input"
+						type="subject"
+						name="subject"
+					/>
+					<input placeholder="Name" class="input" type="text" name="name" />
+					<input
+						placeholder="Email Address"
+						class="input"
+						type="email"
+						name="email"
+					/>
 					<textarea
 						placeholder="Message"
 						class="input"
 						rows="4"
 						type="text"
+						name="message"
 					></textarea>
 					<button type="submit" class="submit_button">Send</button>
 				</form>
